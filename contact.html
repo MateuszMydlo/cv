@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Matt's Personal Site</title>
+
+    <style media="screen">
+      body {
+        background-color: #ffe8a8;
+      }
+
+      hr {
+        border: none;
+        border-top: 3px solid #333;
+        color: #333;
+        overflow: visible;
+        text-align: center;
+        height: 5px;
+      }
+
+      .cropped1 {
+        width: 230px;
+        /* width of container */
+        height: 300px;
+        /* height of container */
+        object-fit: cover;
+        border: 5px solid black;
+      }
+
+      a:any-link,
+      a:visited {
+        color: #230063;
+        text-decoration: none;
+      }
+
+      .list {
+        width: 400px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <img class="cropped1" src="images/kitty.jpg" alt="dracula" />
+      <h1>Mateusz Mydło</h1>
+      <p>
+        <em>Barista at <strong>Bike Cafe Pomorze</strong></em>
+      </p>
+      <p>stop by</p>
+      <hr />
+      <h1>My contact details:</h1>
+      <div class="list">
+        <ul>
+          <li>Fictional Address: Your Mom's street 29</li>
+          <li>Phone number: Any</li>
+          <li>Custom_mail@mail.com</li>
+        </ul>
+      </div>
+      <form
+        action="mailto:matekstratekpl@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="">Your name: </label>
+        <input type="text" name="yourName" value="" /> <br />
+        <label>Your Email: </label>
+        <input type="email" name="yourEmail" id="" /> <br />
+        <label for="">Your message: </label> <br />
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+        <br />
+        <input type="submit" />
+      </form>
+
+      <hr />
+      <a href="index.html">Return to home page</a>
+    </center>
+  </body>
+</html>
